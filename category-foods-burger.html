@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        .btn-primary1{
+          
+            text-decoration:underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                   
+                    <li>
+                        <a href="#">hi2</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <h2>Foods on <a href="#" class="text-white">"Burgers"</a></h2>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box" data-id="9" data-name="Chicken Whopper" data-price="199">
+                <div class="food-menu-img">
+                    <img src="burger/burger1(chicken whopper).png" alt="chicken whopper" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Whopper</h4>
+                    <p class="food-price">RS-199</p>
+                    <p class="food-detail">
+                        Our signature Whopper with 7 layers between buns with extra veggis.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="10" data-name="Mutton Whopper" data-price="299">
+                <div class="food-menu-img">
+                    <img src="burger/burger2(mutton whopper).png" alt="Mutton Whopper" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Mutton Whopper</h4>
+                    <p class="food-price">RS-299</p>
+                    <p class="food-detail">
+                        Our signature Whopper of Mutton with 7 layers between buns with extra veggis.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">add-to-cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="11" data-name="Veg Double Whopper" data-price="180">
+                <div class="food-menu-img">
+                    <img src="burger/burger3(veg double whopper).png" alt="Veg Double Whopper" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Veg Double Whopper</h4>
+                    <p class="food-price">RS-199</p>
+                    <p class="food-detail">
+               Veg whopper with double petis with extra veggies.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="12" data-name="Veg Whopper" data-price="169">
+                <div class="food-menu-img">
+                    <img src="burger/burger4(veg whopper).png" alt="veg whopper" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Veg Whopper</h4>
+                    <p class="food-price">RS-169</p>
+                    <p class="food-detail">
+                        Veg whopper with single petis with extra veggies.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="13" data-name="Boss Whopper Veg" data-price="199">
+                <div class="food-menu-img">
+                    <img src="burger/burger5(boss whopper veg).png" alt="Boss Whopper Veg" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Boss Whopper Veg</h4>
+                    <p class="food-price">RS-199</p>
+                    <p class="food-detail">
+                    Boss Whopper with extra onion and tomatos with panner.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="14" data-name="Boss Whopper Chicken" data-price="249">
+                <div class="food-menu-img">
+                    <img src="burger/burger6(boss whopper chicken).png" alt="Boss Whopper Chicken" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Boss Whopper Chicken</h4>
+                    <p class="food-price">RS-249</p>
+                    <p class="food-detail">
+                        Boss Whopper with extra onion + tomatos with Chiken + Panner Tikki .
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="15" data-name="Chicken Tandoori Burger" data-price="199">
+                <div class="food-menu-img">
+                    <img src="burger/burger7(chicken tandoori burger).png" alt="Chicken Tandoori Burge" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Chicken Tandoori Burger</h4>
+                    <p class="food-price">RS-199</p>
+                    <p class="food-detail">
+                        Roasted Chiken Tandoori burger .
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="food-menu-box" data-id="16" data-name="Panner Royal Burger" data-price="199">
+                <div class="food-menu-img">
+                    <img src="burger/burger8(panner royale burger).png" alt="Panner Royal Burger" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Panner Royal Burger</h4>
+                    <p class="food-price">RS-199</p>
+                    <p class="food-detail">
+                        A Burger with extra Panner + Veggies.
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="food-menu-box" data-id="17" data-name="Veggie Combo" data-price="359">
+                <div class="food-menu-img">
+                    <img src="burger/burger9(combo1).png" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Veggie Combo</h4>
+                    <p class="food-price">RS-359</p>
+                    <p class="food-detail">
+                    Veg Burger + Fries + Chocolate Shake + Pepsi
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="18" data-name="Veg Whopper combo" data-price="299">
+                <div class="food-menu-img">
+                    <img src="burger/burger10(combo2).png" alt="Veg Whopper Combo" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Veg Whopper Combo</h4>
+                    <p class="food-price">RS-299</p>
+                    <p class="food-detail">
+                        Two Veg Whoper with extra veggies.
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="19" data-name="Chicken Whopper Combo" data-price="359">
+                <div class="food-menu-img">
+                    <img src="burger/burger11(combo3).png" alt="Chicken Whopper Combo" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Chicken Whopper Combo</h4>
+                    <p class="food-price">RS-359</p>
+                    <p class="food-detail">
+                        Two Chicken Whoper with extra veggies.
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="20" data-name="Combo Meal" data-price="359">
+                <div class="food-menu-img">
+                    <img src="burger/burger12(combo4).png" alt="Combo Meal" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Combo Meal</h4>
+                    <p class="food-price">RS-359</p>
+                    <p class="food-detail">
+                    Chicken Whopper + Chocolate Shake + Fries.
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="21" data-name="Twin Burger Veg" data-price="250">
+                <div class="food-menu-img">
+                    <img src="burger/burger13(combo5).png" alt="Twin Burger Veg" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Twin Burger Veg</h4>
+                    <p class="food-price">RS-250</p>
+                    <p class="food-detail">
+                        Twin Burger withextra veggies
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="22" data-name="Chicken Crunchy Taco" data-price="135">
+                <div class="food-menu-img">
+                    <img src="burger/chicken crunchy taco.png" alt="chicken crunchy taco" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Chicken Crunchy Taco</h4>
+                    <p class="food-price">RS-135</p>
+                    <p class="food-detail">
+                        Chiken crunchy taco with chicken patties
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="food-menu-box" data-id="23" data-name="Fiery Chicken Wrap" data-price="99">
+                <div class="food-menu-img">
+                    <img src="burger/fiery chicken wrap.png" alt="Fiery Chicken Wrap" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Fiery Chicken Wrap</h4>
+                    <p class="food-price">RS-99</p>
+                    <p class="food-detail">
+                        
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="food-menu-box" data-id="24" data-name="Veg Crunchy Taco" data-price="99">
+                <div class="food-menu-img">
+                    <img src="burger/veg crunchy taco.png" alt="Veg crunchy taco" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Veg Crunchy Taco</h4>
+                    <p class="food-price">RS-99</p>
+                    <p class="food-detail">
+                        
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>Founder and CEO of our company <a href="#">Pritam Saha</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+    <section id="cart">
+        <h2><a href="#" class="btn-primary1">Cart</a></h2>
+        
+        <ul id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total Price Rs:  <span id="total-price">0</span></p>
+        <a href="#" class="btn-primary1"></a>
+    </section>
+    
+    <script src="cart.js"></script>
+
+</body>
+</html>

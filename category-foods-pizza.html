@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                   
+                    <li>
+                        <a href="#">hi1</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <h2>Foods on <a href="#" class="text-white">"Pizzas"</a></h2>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box" data-id="1" data-name="Margharita" data-price="150">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza1.png" alt="Margharita" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Margharita</h4>
+                    <p class="food-price">RS-150</p>
+                    <p class="food-detail">
+                        Classic delight with 100% real mozzarella cheese.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="2" data-name="Farmhouse" data-price="160">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza2(Farmhouse).png" alt="Farmhouse" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Farmhouse</h4>
+                    <p class="food-price">RS-160</p>
+                    <p class="food-detail">
+                        Delightful combination of onion, capsicum, tomato & grilled mushroom
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">add-to-cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="3" data-name="Peppy Panner" data-price="180">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza3(peppypanner).png" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Peppy Panner</h4>
+                    <p class="food-price">RS-180</p>
+                    <p class="food-detail">
+                        Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="4" data-name="Veg Extravaganz" data-price="200">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza4(veg extravaganza).png" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Veg Extravaganz</h4>
+                    <p class="food-price">RS-200</p>
+                    <p class="food-detail">
+                        Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="5" data-name="Chicken Sausage" data-price="150">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza5(chicken sausage).png" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Chicken Sausage</h4>
+                    <p class="food-price">RS-140</p>
+                    <p class="food-detail">
+                        American classic! Spicy, herbed chicken sausage on pizza.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="6" data-name="Pepper Barbecue Chicken" data-price="150">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza6(pepper barbecue chicken).png" alt="Chicke Hawain Momo" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Pepper Barbecue Chicken</h4>
+                    <p class="food-price">RS-150</p>
+                    <p class="food-detail">
+                        Pepper barbecue chicken for that extra zing.
+                    </p>
+                    <br>
+
+                    <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="food-menu-box" data-id="7" data-name="Veg Combo" data-price="379">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza9(veg combo).png" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Veg Combo</h4>
+                    <p class="food-price">RS-379</p>
+                    <p class="food-detail">
+                        Regular Margherita +Regular Farmhouse + Garlic Bread + Pepsi
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="food-menu-box" data-id="8" data-name="Cheese n Corn" data-price="279">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza8(cheese n corn).png" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Cheese n Corn</h4>
+                    <p class="food-price">RS-279</p>
+                    <p class="food-detail">
+                        A delectable combination of sweet & juicy golden corn
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+            <div class="food-menu-box" data-id="9" data-name="Veggie Paradise" data-price="250">
+                <div class="food-menu-img">
+                    <img src="pizza/pizza7(veggie paradise).png" alt="Chicke Hawain Burger" class="img-responsive img-curve">
+                </div>
+            
+                <div class="food-menu-desc">
+                    <h4>Veggie Paradise</h4>
+                    <p class="food-price">RS-250</p>
+                    <p class="food-detail">
+                        The awesome foursome! Golden corn, black olives, capsicum, red paprika
+                    </p>
+                    <br>
+            
+                    <a href="#" class="btn btn-primary add-to-cart">Add to Cart</a>
+                </div>
+            </div>
+
+
+
+            <div class="clearfix"></div>
+
+            
+
+        </div>
+
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>Founder and CEO of our company <a href="#">Pritam Saha</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+    <section id="cart">
+        <h3>Cart</h3>
+        
+        <ul id="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </ul>
+        <p>Total Price: <span id="total-price">0</span></p>
+    </section>
+    
+    <script src="cart.js"></script>
+
+</body>
+</html>
